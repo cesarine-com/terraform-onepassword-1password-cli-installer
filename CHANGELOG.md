@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## v0.1.2
 ### Changed
 - Renamed repository to `terraform-onepassword-1password-cli-installer` (from `terraform-onepassword-cli-installer`)
+- Updated README.md to reflect the new repository name
 ### Added
 - Added `CHANGELOG.md` file
 
