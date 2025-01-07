@@ -18,7 +18,7 @@ Basic usage example:
 
 ```hcl
 module "onepassword-cli-installer" {
-  source  = "cesarine-com/cli-installer/onepassword"
+  source  = "cesarine-com/1password-cli-installer/onepassword"
   version = "0.1.1"
 }
 ```
@@ -37,6 +37,6 @@ This modules also provides output variables that can be used to get the path to 
 ```hcl
 provider "onepassword" {
   # ...
-  op_cli_path           = module.onepassword-cli-installer.op_cli_path d
+  op_cli_path           = module.onepassword-cli-installer.op_cli_path
 }
 ```
